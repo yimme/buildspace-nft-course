@@ -7,8 +7,8 @@ import myEpicNft from "./utils/MyEpicNFT.json";
 // Constants
 const TWITTER_HANDLE = "itsCowSaysWoof";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const OPENSEA_LINK = "";
-const TOTAL_MINT_COUNT = 50;
+// const OPENSEA_LINK = "";
+// const TOTAL_MINT_COUNT = 50;
 const CONTRACT_ADDRESS = "0x1Ad3b277F62146f3481CAAC6E8689E7Bf6E395e2"; 
 
 
