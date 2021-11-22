@@ -82,6 +82,7 @@ const App = () => {
 
       console.log("Connected", accounts[0]);
       setCurrentAccount(accounts[0]);
+      getMintingStatus();
     } catch (err) {
       console.log(err);
     }
@@ -233,11 +234,13 @@ const App = () => {
             <p className="small-text">
               Please make sure you have metamask installed
             </p>
-          ) : (
+          ) : null}
+
+          {currentAccount !== "" ? (
             <p className="small-text">
               {currentMints} / {mintLimit} minted so far.
             </p>
-          )}
+          ) : null}
 
           {/* {renderLinkToOpenSea()} */}
           {success ? (
